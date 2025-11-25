@@ -19,7 +19,7 @@ function Footer(){
                     facebook
                 </li>
                 <li>
-                    youtube
+                    youtubec
                 </li>
             </ul>
         </footer>
