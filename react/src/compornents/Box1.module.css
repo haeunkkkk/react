@@ -1,0 +1,18 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    composes: flex;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+/* composes : import해주는 역할 box클래스가 flex 클래스의 모든 스타일 속성을 상속 받아 사용할 수 있음 */
+
+:global(.title) {
+    font-size: 32px;
+}

@@ -1,0 +1,8 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(166, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
