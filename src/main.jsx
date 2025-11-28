@@ -10,7 +10,8 @@ import { createRoot } from 'react-dom/client'
 //hook
 
 // import Effect from './hook/useEffect'
-import Ref from './hook/useRef'
+// import Ref from './hook/useRef'
+import Main from './hook/useContext/Main'
 
 // const router = createBrowserRouter([
 //   {
@@ -42,7 +43,9 @@ createRoot(document.getElementById('root')).render(
 
     {/* hook */}
     {/* <Effect /> */}
-    <Ref />
+    {/* <Ref /> */}
+
+    <Main />
   </StrictMode>
   </>
 )
