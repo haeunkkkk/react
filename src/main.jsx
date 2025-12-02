@@ -12,6 +12,8 @@ import { createRoot } from 'react-dom/client'
 // import Effect from './hook/useEffect'
 // import Ref from './hook/useRef'
 import Main from './hook/useContext/Main'
+import UseMemo from './hook/useMemo'
+import UseCallback from './hook/useCallback/useCallback'
 
 // const router = createBrowserRouter([
 //   {
@@ -45,7 +47,9 @@ createRoot(document.getElementById('root')).render(
     {/* <Effect /> */}
     {/* <Ref /> */}
 
-    <Main />
+    {/* <Main /> */}
+    {/* <UseMemo /> */}
+    <UseCallback />
   </StrictMode>
   </>
 )
