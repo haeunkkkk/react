@@ -64,3 +64,6 @@ export default UseCallback
 //useMemo는 값을 메모하는 것: 싹다 가져가서 결과값만 가지고오는 것
 //useCallback 함수를 메모함: 이 객체 자체를 담아두는 것 안에서 계산하진않음 함수 자체를 저장하는 것 그 안에서 다시 작동하지 않음
 //작업을 할 때 나 혼자만 하는 것 아님 다른 사람들과 협업 이 소스를 보게 될것 내가 결과 값을 가지고 올 거다 useMemo 함수 자체를 저장할 거다 할 때 useCallback 쓰는 것
+
+// React.memo 
+// props

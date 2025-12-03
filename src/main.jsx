@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { useReducer } from 'react'
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 // import './index.css'
 // import App from './App.jsx'
@@ -14,6 +15,8 @@ import { createRoot } from 'react-dom/client'
 import Main from './hook/useContext/Main'
 import UseMemo from './hook/useMemo'
 import UseCallback from './hook/useCallback/useCallback'
+import ReactMemo from './hook/React.memo/reactMemo'
+import UseReducer from './hook/useReducer'
 
 // const router = createBrowserRouter([
 //   {
@@ -49,7 +52,9 @@ createRoot(document.getElementById('root')).render(
 
     {/* <Main /> */}
     {/* <UseMemo /> */}
-    <UseCallback />
+    {/* <UseCallback /> */}
+    {/* <ReactMemo/> */}
+    <UseReducer />
   </StrictMode>
   </>
 )
